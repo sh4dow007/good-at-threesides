@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Know your Hypotenuse</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a
+      href="https://good-at-threesides.netlify.app/#main-display"
+      class="link-back"
+      >Back</a
+    >
+    <div id="" class="mainpage-style">
+      <form class="form-style">
+        <label class="label-style">
+          Enter leg 1 of any right-angled triangle:
+        </label>
+        <input
+          type="number"
+          name="Leg-Number1"
+          id="leg-number-1"
+          class="input-style"
+        />
+        <label class="label-style">
+          Enter leg 2 of that same right-angled triangle:
+        </label>
+        <input
+          type="number"
+          name="Leg-Number2"
+          id="leg-number-2"
+          class="input-style"
+        />
+        <button id="find-hypotenuse" class="checkBtn-style">Check</button>
+      </form>
+      <div id="result">
+        <p id="result-text" class="result-style"></p>
+      </div>
+    </div>
+    <script src="findHypotenuse.js"></script>
+  </body>
+</html>
